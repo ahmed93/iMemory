@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Address" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="one_address" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person" inverseName="adresses" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Email" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="one_email" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person" inverseName="emails" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Entity" syncable="YES"/>
+    <entity name="Person" syncable="YES">
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="adresses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Address" inverseName="one_address" inverseEntity="Address" syncable="YES"/>
+        <relationship name="emails" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Email" inverseName="one_email" inverseEntity="Email" syncable="YES"/>
+        <relationship name="phones" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Phone" inverseName="one_Person" inverseEntity="Phone" syncable="YES"/>
+    </entity>
+    <entity name="Phone" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="one_Person" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person" inverseName="phones" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-432" positionY="-360" width="128" height="148"/>
+        <element name="Phone" positionX="-63" positionY="-126" width="128" height="90"/>
+        <element name="Email" positionX="0" positionY="-225" width="128" height="90"/>
+        <element name="Address" positionX="36" positionY="-331" width="128" height="88"/>
+        <element name="Entity" positionX="-29" positionY="-486" width="128" height="45"/>
+    </elements>
+</model>

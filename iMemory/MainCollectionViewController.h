@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainCollectionViewController.h
 //  iMemory
 //
 //  Created by Ahmed Mohamed Fareed on 7/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainCollectionViewController : UICollectionViewController
 
 @end

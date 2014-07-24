@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1FE8641980994A00398E2E /* iMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FE8621980994A00398E2E /* iMemory.xcdatamodeld */; };
+		8D1FE8651980994A00398E2E /* iMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FE8621980994A00398E2E /* iMemory.xcdatamodeld */; };
 		8DD4D85C1977E2BE0016A75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D85B1977E2BD0016A75A /* Foundation.framework */; };
 		8DD4D85E1977E2BE0016A75A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D85D1977E2BE0016A75A /* CoreGraphics.framework */; };
 		8DD4D8601977E2BE0016A75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D85F1977E2BE0016A75A /* UIKit.framework */; };
@@ -15,13 +17,14 @@
 		8DD4D86C1977E2BE0016A75A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4D86B1977E2BE0016A75A /* AppDelegate.m */; };
 		8DD4D86F1977E2BE0016A75A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4D86D1977E2BE0016A75A /* Main_iPhone.storyboard */; };
 		8DD4D8721977E2BE0016A75A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4D8701977E2BE0016A75A /* Main_iPad.storyboard */; };
-		8DD4D8751977E2BE0016A75A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4D8741977E2BE0016A75A /* ViewController.m */; };
 		8DD4D8771977E2BE0016A75A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4D8761977E2BE0016A75A /* Images.xcassets */; };
 		8DD4D87E1977E2BE0016A75A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D87D1977E2BE0016A75A /* XCTest.framework */; };
 		8DD4D87F1977E2BE0016A75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D85B1977E2BD0016A75A /* Foundation.framework */; };
 		8DD4D8801977E2BE0016A75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4D85F1977E2BE0016A75A /* UIKit.framework */; };
 		8DD4D8881977E2BE0016A75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4D8861977E2BE0016A75A /* InfoPlist.strings */; };
 		8DD4D88A1977E2BE0016A75A /* iMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4D8891977E2BE0016A75A /* iMemoryTests.m */; };
+		8DD4D8951977E3460016A75A /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4D8941977E3460016A75A /* MainCollectionViewController.m */; };
+		8DD4D8961977E3460016A75A /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4D8941977E3460016A75A /* MainCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D1FE8631980994A00398E2E /* iMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMemory.xcdatamodel; sourceTree = "<group>"; };
 		8DD4D8581977E2BD0016A75A /* iMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD4D85B1977E2BD0016A75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DD4D85D1977E2BE0016A75A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +51,14 @@
 		8DD4D86B1977E2BE0016A75A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DD4D86E1977E2BE0016A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		8DD4D8711977E2BE0016A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8DD4D8731977E2BE0016A75A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DD4D8741977E2BE0016A75A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DD4D8761977E2BE0016A75A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8DD4D87C1977E2BE0016A75A /* iMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD4D87D1977E2BE0016A75A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8DD4D8851977E2BE0016A75A /* iMemoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMemoryTests-Info.plist"; sourceTree = "<group>"; };
 		8DD4D8871977E2BE0016A75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DD4D8891977E2BE0016A75A /* iMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMemoryTests.m; sourceTree = "<group>"; };
+		8DD4D8931977E3460016A75A /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		8DD4D8941977E3460016A75A /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1FE8611980991100398E2E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8D1FE8621980994A00398E2E /* iMemory.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		8DD4D84F1977E2BD0016A75A = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +126,13 @@
 		8DD4D8611977E2BE0016A75A /* iMemory */ = {
 			isa = PBXGroup;
 			children = (
+				8D1FE8611980991100398E2E /* Database */,
 				8DD4D86A1977E2BE0016A75A /* AppDelegate.h */,
 				8DD4D86B1977E2BE0016A75A /* AppDelegate.m */,
 				8DD4D86D1977E2BE0016A75A /* Main_iPhone.storyboard */,
 				8DD4D8701977E2BE0016A75A /* Main_iPad.storyboard */,
-				8DD4D8731977E2BE0016A75A /* ViewController.h */,
-				8DD4D8741977E2BE0016A75A /* ViewController.m */,
+				8DD4D8931977E3460016A75A /* MainCollectionViewController.h */,
+				8DD4D8941977E3460016A75A /* MainCollectionViewController.m */,
 				8DD4D8761977E2BE0016A75A /* Images.xcassets */,
 				8DD4D8621977E2BE0016A75A /* Supporting Files */,
 			);
@@ -253,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD4D8751977E2BE0016A75A /* ViewController.m in Sources */,
 				8DD4D86C1977E2BE0016A75A /* AppDelegate.m in Sources */,
 				8DD4D8681977E2BE0016A75A /* main.m in Sources */,
+				8D1FE8641980994A00398E2E /* iMemory.xcdatamodeld in Sources */,
+				8DD4D8951977E3460016A75A /* MainCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD4D88A1977E2BE0016A75A /* iMemoryTests.m in Sources */,
+				8DD4D8961977E3460016A75A /* MainCollectionViewController.m in Sources */,
+				8D1FE8651980994A00398E2E /* iMemory.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +486,7 @@
 				8DD4D88F1977E2BE0016A75A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DD4D8901977E2BE0016A75A /* Build configuration list for PBXNativeTarget "iMemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -478,8 +495,23 @@
 				8DD4D8921977E2BE0016A75A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D1FE8621980994A00398E2E /* iMemory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D1FE8631980994A00398E2E /* iMemory.xcdatamodel */,
+			);
+			currentVersion = 8D1FE8631980994A00398E2E /* iMemory.xcdatamodel */;
+			name = iMemory.xcdatamodeld;
+			path = Database/iMemory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DD4D8501977E2BD0016A75A /* Project object */;
 }
